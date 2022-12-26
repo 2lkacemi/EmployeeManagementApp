@@ -1,0 +1,34 @@
+<div class="col-md-9">
+
+  <table class="table">
+    <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Item</th>
+      <th scope="col">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let employee of employees">
+      <th scope="row">1</th>
+      <td>
+        <a href="#">
+          {{employee.name}}
+        </a>
+      </td>
+      <td>
+        <a href="#" class="btn btn-sm btn-primary my-1 my-sm-0">
+          <span class="fas fa-edit mr-1"></span>
+          Edit</a>
+        <a href="#" class="btn btn-sm btn-danger my-1 my-sm-0">
+          <span class="fas fa-trash mr-1"></span>
+          Delete</a>
+      </td>
+    </tr>
+
+
+    </tbody>
+  </table>
+
+</div>
