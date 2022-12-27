@@ -89,7 +89,7 @@ export class EmployeeComponent implements OnInit {
   }
 
   public onOpenModal(employee: Employee, mode: string): void {
-    const container = document.getElementById('main-container');
+    const container = document.getElementById('employee-component');
     const button = document.createElement('button');
     button.type = 'button';
     button.style.display = 'none';
